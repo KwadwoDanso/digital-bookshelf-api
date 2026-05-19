@@ -12,17 +12,6 @@ A RESTful API for managing a library book inventory. Built with Node.js, Express
 - Mongoose
 - dotenv
 
-## File Structure
-```
-digital-bookshelf-api/
-├── db/connection.js
-├── models/Book.js
-├── routes/bookRoutes.js
-├── server.js
-├── package.json
-├── .env.example
-└── .gitignore
-```
 
 ## Setup
 1. Clone the repo
@@ -30,15 +19,7 @@ digital-bookshelf-api/
 3. Create `.env` at project root (see `.env.example`)
 4. `node server.js`
 
-## Endpoints
 
-| Method | Route | Description |
-|---|---|---|
-| GET | `/api/books` | Get all books |
-| GET | `/api/books/:id` | Get one book by ID |
-| POST | `/api/books` | Create a book |
-| PUT | `/api/books/:id` | Update a book by ID |
-| DELETE | `/api/books/:id` | Delete a book by ID |
 
 ## Security
 `.env` is git-ignored. See `.env.example` for required variables.
